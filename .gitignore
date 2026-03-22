@@ -1,0 +1,36 @@
+# Local Codex and agent state
+.agents/
+.codex/
+
+# Local fuzz campaign ledger
+/gtp_mts_fuzz_iterations.log
+/fuzz-lab.local.json
+
+# Local MTS payload trees unpacked by the user
+/mts/
+/mts_client/
+/mts_server/
+
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
